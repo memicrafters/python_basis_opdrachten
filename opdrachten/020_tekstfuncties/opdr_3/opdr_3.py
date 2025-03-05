@@ -1,5 +1,16 @@
 # Opdracht 3 tekstfuncties
-# Naam student:
-# Groep:
+# Naam student: Michel Benard
+# Groep:IT2A
+from traceback import print_tb
 
-# Hier komt je code...
+
+print("    *")
+print("   ***")
+print("  ******")
+print(" ********")
+print("***********")
+print("    ***")
+print("    ***")
+print("    ***")
+
+print(print * 5)

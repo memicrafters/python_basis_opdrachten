@@ -4,13 +4,18 @@
 from traceback import print_tb
 
 
-print("    *")
-print("   ***")
-print("  ******")
-print(" ********")
-print("***********")
-print("    ***")
-print("    ***")
-print("    ***")
+mylist = (
+    "   *   ",
+    "  ***  ",
+    " ***** ",
+    "*******",
+    "  ***  ",
+    "  ***  ",
+    "  ***  "
+)
 
-print(print * 5)
+for row in mylist:
+    print(row * 5)
+
+
+

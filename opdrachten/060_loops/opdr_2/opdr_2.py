@@ -6,5 +6,6 @@
 
 # Hier start de for-loop
 
-my_list = []
+my_list = [10, 20, 30, 40, 50]
 
+print(my_list)
